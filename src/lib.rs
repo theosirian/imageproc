@@ -7,6 +7,7 @@
     clippy::zero_prefixed_literal,
     clippy::needless_range_loop
 )]
+#![feature(type_alias_impl_trait)]
 
 #[cfg(test)]
 extern crate test;
